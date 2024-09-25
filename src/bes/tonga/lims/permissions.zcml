@@ -1,0 +1,20 @@
+<configure xmlns="http://namespaces.zope.org/zope">
+
+  <!-- Add Permissions -->
+  <permission id="bes.tonga.lims.permissions.AddWard" title="bes.tonga.lims: Add Ward"/>
+  <permission id="bes.tonga.lims.permissions.AddWardDepartment" title="bes.tonga.lims: Add Ward Department"/>
+
+  <!-- Field Permissions (Sample, aka AnalysisRequest) -->
+  <permission id="bes.tonga.lims.permissions.FieldEditBottles" title="bes.tonga.lims: Field: Edit Bottles"/>
+  <permission id="bes.tonga.lims.permissions.FieldEditClinicalInformation" title="bes.tonga.lims: Field: Edit Clinical Information"/>
+  <permission id="bes.tonga.lims.permissions.FieldEditCurrentAntibiotics" title="bes.tonga.lims: Field: Edit Current Antibiotics"/>
+  <permission id="bes.tonga.lims.permissions.FieldEditVolume" title="bes.tonga.lims: Field: Edit Volume" />
+  <permission id="bes.tonga.lims.permissions.FieldEditWard" title="bes.tonga.lims: Field: Edit Ward"/>
+  <permission id="bes.tonga.lims.permissions.FieldEditWardDepartment" title="bes.tonga.lims: Field: Edit Ward Department"/>
+  <permission id="bes.tonga.lims.permissions.FieldEditLocation" title="bes.tonga.lims: Field: Edit Location"/>
+  <permission id="bes.tonga.lims.permissions.FieldEditDateOfAdmission" title="bes.tonga.lims: Field: Edit Date Of Admission"/>
+
+  <!-- Transition Permissions -->
+  <permission id="bes.tonga.lims.permissions.TransitionCreateSupplementary" title="bes.tonga.lims: Transition: Create Supplementary"/>
+
+</configure>

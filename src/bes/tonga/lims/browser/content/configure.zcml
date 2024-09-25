@@ -1,0 +1,21 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser">
+
+  <!-- Wards view -->
+  <browser:page
+    for="bes.tonga.lims.content.wards.IWards"
+    name="view"
+    class=".wards.WardsView"
+    permission="senaite.core.permissions.ManageBika"
+    layer="bes.tonga.lims.interfaces.IBesTongaLimsLayer" />
+
+  <!-- Ward Departments view -->
+  <browser:page
+      for="bes.tonga.lims.content.warddepartments.IWardDepartments"
+      name="view"
+      class=".warddepartments.WardDepartmentsView"
+      permission="senaite.core.permissions.ManageBika"
+      layer="bes.tonga.lims.interfaces.IBesTongaLimsLayer" />
+
+</configure>
