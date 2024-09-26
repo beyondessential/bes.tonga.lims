@@ -15,7 +15,7 @@ LANG_SETTINGS = [
     # Site language
     ("default_language", "en"),
     # Available languages
-    ("available_languages", ["en", "na"]),
+    ("available_languages", ["en", "to"]),
     # Show country-specific language variants
     # IMPORTANT: If True, .pot files for language variants are required
     ("use_combined_language_codes", False),
@@ -29,8 +29,8 @@ SETUP_SETTINGS = [
     ("RestrictWorksheetManagement", True),
     # Accounting
     ("ShowPrices", False),
-    ("Currency", "AUD"),
-    ("DefaultCountry", "NR"),
+    ("Currency", "TOP"),
+    ("DefaultCountry", "TO"),
     ("MemberDiscount", "0"),
     ("VAT", "10"),
     # Analyses
