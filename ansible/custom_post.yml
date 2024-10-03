@@ -25,10 +25,11 @@
   tags:
     - senaite-custom
 
-- name: "Grant access to senaite group and set sticky bit to plone var directory"
+- name: "Grant access to senaite group and setgid bit to plone var directory"
   shell: |
     chown -R {{ plone_daemon_user }}:{{ plone_group }} {{ plone_var_path }}
-    chmod -R g+s {{ plone_var_path }}
+    find {{ plone_var_path }} -exec chmod ug+rwX,o-rwx {} \;
+    find {{ plone_var_path }} -type d -exec chmod g+s {} \;
   become: yes
   tags:
     - senaite-custom

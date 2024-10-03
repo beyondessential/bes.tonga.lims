@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+# set user and group ownership of var folder
+sudo chown -R ${buildout:effective-user}:${buildout:buildout-user} ${buildout:var-dir}
+
+# make sure var folder is r/w by our group, but no-one else
+sudo find  ${buildout:var-dir} -exec chmod -v ug+rwX,o-rwx {} \;
+
+# Set setgid permission so contents created within inherit group ownership
+sudo find  ${buildout:var-dir} -type d -exec chmod g+s {} \;
