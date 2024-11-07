@@ -7,7 +7,7 @@
   shell: "rm -f /etc/nginx/sites-enabled/*"
   become: yes
 
-- name: "Generate deploy key for bes.tonga.lims repos"
+- name: "Generate deploy keys"
   user:
     name: "{{user}}"
     generate_ssh_key: yes

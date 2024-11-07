@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
-LOCALES=${buildout:src-dir}/src/bes/tonga/lims/locales
+SRC_BASE_DIR=${buildout:directory}/src
+LOCALES=$SRC_BASE_DIR/bes.tonga.lims/src/bes/tonga/lims/locales
 
 # Clean all generated .mo files
 find $LOCALES -name "*.mo" -delete

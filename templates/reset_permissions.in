@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
 
+# set noatime attr for filestorage and blobstorage
+sudo chattr -R +A ${buildout:var-dir}/filestorage
+sudo chattr -R +A ${buildout:var-dir}/blobstorage
+
 # set user and group ownership of var folder
 sudo chown -R ${buildout:effective-user}:${buildout:buildout-user} ${buildout:var-dir}
 
