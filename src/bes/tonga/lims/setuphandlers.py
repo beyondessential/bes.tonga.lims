@@ -201,7 +201,7 @@ def setup_handler(context):
     setup_workflows(portal)
 
     # Import baseline data
-    import_content_structure(portal)
+    #import_content_structure(portal)
 
     # Setup languages
     setup_languages(portal)
