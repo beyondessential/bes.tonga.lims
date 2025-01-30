@@ -128,6 +128,7 @@ NEW_FIELDS = [
         "Ward",
         allowed_types=("Ward",),
         multiValued=False,
+        required=True,
         read_permission=View,
         write_permission=FieldEditWard,
         widget=ReferenceWidget(
