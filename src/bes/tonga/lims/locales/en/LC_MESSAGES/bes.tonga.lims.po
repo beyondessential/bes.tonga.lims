@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-03-20 15:00+0000\n"
+"POT-Creation-Date: 2025-03-20 15:16+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: DOMAIN\n"
 
-#: bes/tonga/lims/impress/reports/Default.pt:312
+#: bes/tonga/lims/impress/reports/Default.pt:313
 msgid "(Estimated)"
 msgstr ""
 
@@ -38,7 +38,7 @@ msgid "Add panel"
 msgstr ""
 
 #: bes/tonga/lims/browser/sample/templates/rejection_content.pt:108
-#: bes/tonga/lims/impress/reports/Default.pt:308
+#: bes/tonga/lims/impress/reports/Default.pt:309
 msgid "Age"
 msgstr ""
 
@@ -47,7 +47,7 @@ msgstr ""
 msgid "All"
 msgstr ""
 
-#: bes/tonga/lims/impress/reports/Default.pt:370
+#: bes/tonga/lims/impress/reports/Default.pt:371
 msgid "Amended results"
 msgstr ""
 
@@ -59,11 +59,11 @@ msgstr ""
 msgid "Asap"
 msgstr ""
 
-#: bes/tonga/lims/impress/reports/Default.pt:626
+#: bes/tonga/lims/impress/reports/Default.pt:627
 msgid "Attachment for"
 msgstr ""
 
-#: bes/tonga/lims/impress/reports/Default.pt:610
+#: bes/tonga/lims/impress/reports/Default.pt:611
 msgid "Attachments for ${DYNAMIC_CONTENT}"
 msgstr ""
 
@@ -92,7 +92,7 @@ msgid "Can reject samples"
 msgstr ""
 
 #: bes/tonga/lims/browser/sample/templates/rejection_content.pt:70
-#: bes/tonga/lims/impress/reports/Default.pt:204
+#: bes/tonga/lims/impress/reports/Default.pt:205
 msgid "Clinical Laboratory Services"
 msgstr ""
 
@@ -108,7 +108,7 @@ msgstr ""
 msgid "Customize"
 msgstr ""
 
-#: bes/tonga/lims/impress/reports/Default.pt:344
+#: bes/tonga/lims/impress/reports/Default.pt:345
 msgid "Date collected"
 msgstr ""
 
@@ -152,11 +152,11 @@ msgstr ""
 msgid "Dry weight of the container. When set, the volume of the sample is calculated automatically by subtracting this value from the container's weight set on sample registration"
 msgstr ""
 
-#: bes/tonga/lims/impress/reports/Default.pt:740
+#: bes/tonga/lims/impress/reports/Default.pt:741
 msgid "Fax"
 msgstr ""
 
-#: bes/tonga/lims/impress/reports/Default.pt:633
+#: bes/tonga/lims/impress/reports/Default.pt:634
 msgid "Filename:"
 msgstr ""
 
@@ -165,13 +165,13 @@ msgid "Flag"
 msgstr ""
 
 #: bes/tonga/lims/browser/sample/templates/rejection_content.pt:99
-#: bes/tonga/lims/impress/reports/Default.pt:299
+#: bes/tonga/lims/impress/reports/Default.pt:300
 msgid "Hospital Number"
 msgstr ""
 
 #: bes/tonga/lims/browser/sample/templates/rejection_content.pt:127
 #: bes/tonga/lims/content/analysisrequest.py:79
-#: bes/tonga/lims/impress/reports/Default.pt:327
+#: bes/tonga/lims/impress/reports/Default.pt:328
 msgid "Hospital/Clinic"
 msgstr ""
 
@@ -192,7 +192,7 @@ msgstr ""
 msgid "Inpatient"
 msgstr ""
 
-#: bes/tonga/lims/impress/reports/Default.pt:366
+#: bes/tonga/lims/impress/reports/Default.pt:367
 msgid "Invalidated"
 msgstr ""
 
@@ -221,7 +221,7 @@ msgstr ""
 msgid "Negative"
 msgstr ""
 
-#: bes/tonga/lims/impress/reports/Default.pt:404
+#: bes/tonga/lims/impress/reports/Default.pt:405
 msgid "Normal values"
 msgstr ""
 
@@ -254,11 +254,11 @@ msgid "Panel"
 msgstr ""
 
 #: bes/tonga/lims/browser/sample/templates/rejection_content.pt:95
-#: bes/tonga/lims/impress/reports/Default.pt:294
+#: bes/tonga/lims/impress/reports/Default.pt:295
 msgid "Patient name"
 msgstr ""
 
-#: bes/tonga/lims/impress/reports/Default.pt:736
+#: bes/tonga/lims/impress/reports/Default.pt:737
 msgid "Phone"
 msgstr ""
 
@@ -270,7 +270,7 @@ msgstr ""
 msgid "Positive"
 msgstr ""
 
-#: bes/tonga/lims/impress/reports/Default.pt:262
+#: bes/tonga/lims/impress/reports/Default.pt:263
 msgid "Provisional report"
 msgstr ""
 
@@ -291,23 +291,19 @@ msgstr ""
 msgid "Report Logo"
 msgstr ""
 
-#: bes/tonga/lims/impress/reports/Default.pt:752
+#: bes/tonga/lims/impress/reports/Default.pt:753
 msgid "Report v1"
 msgstr ""
 
-#: bes/tonga/lims/impress/reports/Default.pt:679
-msgid "Reported ${verified_datetime} by"
-msgstr ""
-
-#: bes/tonga/lims/impress/reports/Default.pt:402
+#: bes/tonga/lims/impress/reports/Default.pt:403
 msgid "Result"
 msgstr ""
 
-#: bes/tonga/lims/impress/reports/Default.pt:538
+#: bes/tonga/lims/impress/reports/Default.pt:539
 msgid "Results are provisional as sample is undergoing further standardized analysis"
 msgstr ""
 
-#: bes/tonga/lims/impress/reports/Default.pt:254
+#: bes/tonga/lims/impress/reports/Default.pt:255
 msgid "Revised report for sample"
 msgstr ""
 
@@ -316,7 +312,7 @@ msgid "Routine"
 msgstr ""
 
 #: bes/tonga/lims/browser/sample/templates/rejection_content.pt:136
-#: bes/tonga/lims/impress/reports/Default.pt:336
+#: bes/tonga/lims/impress/reports/Default.pt:337
 msgid "Sample ID"
 msgstr ""
 
@@ -325,7 +321,7 @@ msgid "Sample rejected by"
 msgstr ""
 
 #: bes/tonga/lims/browser/sample/templates/rejection_content.pt:140
-#: bes/tonga/lims/impress/reports/Default.pt:340
+#: bes/tonga/lims/impress/reports/Default.pt:341
 msgid "Sample type"
 msgstr ""
 
@@ -342,7 +338,7 @@ msgid "Selective reporting"
 msgstr ""
 
 #: bes/tonga/lims/browser/sample/templates/rejection_content.pt:103
-#: bes/tonga/lims/impress/reports/Default.pt:303
+#: bes/tonga/lims/impress/reports/Default.pt:304
 msgid "Sex"
 msgstr ""
 
@@ -362,15 +358,15 @@ msgstr ""
 msgid "Stat"
 msgstr ""
 
-#: bes/tonga/lims/impress/reports/Default.pt:244
+#: bes/tonga/lims/impress/reports/Default.pt:245
 msgid "Supplementary report for"
 msgstr ""
 
-#: bes/tonga/lims/impress/reports/Default.pt:512
+#: bes/tonga/lims/impress/reports/Default.pt:513
 msgid "Temporarily Unavailable"
 msgstr ""
 
-#: bes/tonga/lims/impress/reports/Default.pt:658
+#: bes/tonga/lims/impress/reports/Default.pt:659
 msgid "Tested ${submitted_datetime} by"
 msgstr ""
 
@@ -398,11 +394,11 @@ msgstr ""
 msgid "There is over volume of sample"
 msgstr ""
 
-#: bes/tonga/lims/impress/reports/Default.pt:232
+#: bes/tonga/lims/impress/reports/Default.pt:233
 msgid "This Sample has been invalidated due to erroneously published results"
 msgstr ""
 
-#: bes/tonga/lims/impress/reports/Default.pt:235
+#: bes/tonga/lims/impress/reports/Default.pt:236
 msgid "This Sample has been replaced by"
 msgstr ""
 
@@ -417,6 +413,10 @@ msgstr ""
 
 #: bes/tonga/lims/adapters/listing/samples.py:92
 msgid "Unknown doctor"
+msgstr ""
+
+#: bes/tonga/lims/impress/reports/Default.pt:680
+msgid "Verified ${verified_datetime} by"
 msgstr ""
 
 #: bes/tonga/lims/content/analysisrequest.py:312
@@ -442,7 +442,7 @@ msgstr ""
 
 #: bes/tonga/lims/browser/sample/templates/rejection_content.pt:131
 #: bes/tonga/lims/content/analysisrequest.py:148
-#: bes/tonga/lims/impress/reports/Default.pt:331
+#: bes/tonga/lims/impress/reports/Default.pt:332
 msgid "Ward"
 msgstr ""
 
@@ -478,6 +478,6 @@ msgstr ""
 msgid "Whether the user linked to this laboratory contact is authorised to reject samples. Note that user won't be able to reject a sample if she/he does not belong to an authorised group (LabManager or LabClerk), even if this option is selected"
 msgstr ""
 
-#: bes/tonga/lims/impress/reports/Default.pt:596
+#: bes/tonga/lims/impress/reports/Default.pt:597
 msgid "by"
 msgstr ""
